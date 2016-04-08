@@ -1,0 +1,23 @@
+# Reflections
+
+### Git & Github
+
+1. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+By manually creating commits, a programmer will have more control over the development history of a project.  Clear, purposeful commits will make going back and reviewing your project much simpler.  Automatically saving at set intervals can easily create either uneccessary commits or commits that are to large in scope.  On the negative end of the spectrum, manually creating commits can get out of control if you over commit or under commit.  Not making enough commits will make it difficult to sniff out problem areas in your project down the road while commiting too often will make your commit history diluted and difficult to read.
+
+2.  Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+You will be working with files that effect one another most the time.  Git takes a snapshot of every file in each repository when a commit takes place which allows the coder to not have to make seperate commits for every file.  This increases readability of a projects history.  Other systems choose not to save multiple files.  I believe they make this choice because the majority of the files using their service are not interdependent.  
+
+3.  How can you use the commands git log and git diff to view the history of files?
+
+`git log` will show you the commit id, the authors name and email, the date of the commit, as well as a brief note giving the reason for the commit.  `git diff` allows you to compare the differences between different versions of files.  I mistakenly was comparing the wrong files while taking the quiz.  Remember that `git log` will list commits in order of most recent to oldest.
+
+4.  How might using version control make you more confident to make changes that could break something?
+
+The commits you use in version control give you all the confidence in the world so long as you keep them organized.  As long as you have a commit to fall back on before making any changes that could introduce new bugs, you can always use `checkout` in GitBash to see if the bug still exists in a previous commit.  By process of elimination, you can efficiently hone in on when and where the problem was created.
+
+5.  Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to learn to setup a project strictly from bash.
