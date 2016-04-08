@@ -13,6 +13,8 @@ change?
 4. What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches come in handy in a variety of ways.  One example would be if you needed two copies of a project with minor differences like an easy and hard mode in a game.  When testing things out or making new features branches can also help keep things organized and allow the project to remain untouched until you complete the new features/tests.
+
 5. How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
