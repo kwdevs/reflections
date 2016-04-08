@@ -10,12 +10,16 @@ The staging area differs from the working directory and repository in that it is
 3. How can you use the staging area to make sure you have one commit per logical
 change?
 
+You can use git diff.
+
 4. What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
 Branches come in handy in a variety of ways.  One example would be if you needed two copies of a project with minor differences like an easy and hard mode in a game.  When testing things out or making new features branches can also help keep things organized and allow the project to remain untouched until you complete the new features/tests.
 
 5. How do the diagrams help you visualize the branch structure?
+
+Diagrams give you a visual linear layout and makes it easy to see what commits will be seen by which branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
