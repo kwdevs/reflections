@@ -21,8 +21,10 @@ Branches come in handy in a variety of ways.  One example would be if you needed
 
 Diagrams give you a visual linear layout and makes it easy to see what commits will be seen by which branches.
 
-What is the result of merging two branches together? Why do we represent it in
+6. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+Merging of two branches together creates one branch where commits are interleaved based on time applied.  We use the diagram for a clear visual representation of what a branch will have access to after a merge.
+
+7. What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
