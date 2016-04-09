@@ -1,3 +1,7 @@
+Reflections 2 
+
+Git & Github
+
 1. What happens when you initialize a repository? Why do you need to do it?
 
 When you initialize a repository, a hidden .git directory is created.  You need to do this so git can start to save versions even though initially files in the specified directory will be untracked. 
@@ -29,4 +33,4 @@ Merging of two branches together creates one branch where commits are interleave
 7. What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
-Git's automatic merging is safe since it operates outside areas where changes between two files do not overlap.  Manual merges are required when pieces of code that are too close together are changed in different file versions.  These need to be manually reviewed as allowing Git to just "guess" could quickly turn things into a quagmire.
+Git's automatic merging is safe since it operates outside areas where changes between two files do not overlap.  Manual merges are required when pieces of code that are too close together are changed in different file versions.  These need to be manually reviewed as allowing Git to just "guess" could quickly turn things into a quagmire.git c
