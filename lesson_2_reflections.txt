@@ -26,5 +26,7 @@ the diagram the way we do?
 
 Merging of two branches together creates one branch where commits are interleaved based on time applied.  We use the diagram for a clear visual representation of what a branch will have access to after a merge.
 
-7. What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+7. What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Git's automatic merging is safe since it operates outside areas where changes between two files do not overlap.  Manual merges are required when pieces of code that are too close together are changed in different file versions.  These need to be manually reviewed as allowing Git to just "guess" could quickly turn things into a quagmire.
