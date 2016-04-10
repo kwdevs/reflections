@@ -22,7 +22,7 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    It seems for small projects agreeing to a directory structure with backups would make sense.  However, introducing new members to the team or working on large projects make this idea seem to get out of hand quickly.  Also you lose the ability to collaborate with people you otherwise would never have met.  So far, it seems that GitHub is the easiest of the options, however, the learning curve for a new person interested in web dev is quite steep.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
