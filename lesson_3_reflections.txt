@@ -27,6 +27,8 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
+You want to make changes in a seperate branch whenever the code you are working on is not production ready.  Adding or testing new features on a project or contributing a change to a project are all examples of when a new branch would be useful.  The main benefits of creating a new branch for changes are allowing your production ready code to stay untouched while new things are developed as well as organization of changes.  Changing things directly on master on the other hand is simpler.
+
 When would you want to use a remote repository rather than keeping all your work
 local?
 
